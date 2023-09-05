@@ -1,0 +1,37 @@
+smtp:
+    #邮箱账号(自己的)
+    user: 
+    #授权码(自己的)
+    pass: 
+    host: smtp.163.com
+    #端口号，阿里云服务器使用465，正常使用25
+    port: 465
+
+#过滤字段值 (删除发送信息中这些包含字段，筛选出想要的城市)
+Filtration: 我 想 要 查 看  的 天气 , 询 嘛 吗 。 帮 每  定 时 给 我 发 送 你 好 知 道 当天 明天 后天 早上 晚上 中午 1 2 3 4 5 6 7 8 9 0 - / —— 就 小文同学 小文 白天
+
+
+#MySQL配置(自己的)
+mysql: 
+      dns: root:123456@tcp(localhost:3306)/weather?charset=utf8mb4&parseTime=True&loc=Local
+
+#高德地图key(免费)(自己的)  https://lbs.amap.com/api/webservice/guide/create-project/get-key
+weather:
+      key: 
+
+#启动黑名单还是白名单群    数字1 代表白名单  数字2 代表黑名单
+#白名单：指定群触发GPT
+#黑名单：指定群不触发GPT
+initiate: 1
+
+
+#名单群名(群名空格隔开)
+BlackAndWhiteLists: 测试
+
+
+#AI触发关键字（关键字空格隔开）------关键字会将从信息中删除（字段重复长度高的排前面不然GPT查找报错）
+AIkeywords: 小文同学 小文
+
+
+#GPT key (免费)(自己的) https://api.lolimi.cn/user/login?url=/user/api-list
+GPTkey: 

@@ -1,0 +1,2 @@
+# openwechat
+基于openWeChat的嵌入的一个简单的GPT人工

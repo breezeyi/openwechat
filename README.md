@@ -25,5 +25,5 @@
 ##### 1.将openwechat 文件和config 文件夹拷贝在虚拟机或者服务器上
 ##### 2.进入config文件夹修改配置文件里面的参数值（步骤根据本地使用基本一样）
 ##### 3.配置文件修改后，使用 cd ..  返回上一级目录  然后给openwecaht添加权限 chmod +x openwechat
-##### 4.后台运行文件openwecaht   nohup ./openwecaht & 然后回车
+##### 4.后台运行文件openwechat   nohup ./openwechat & 然后回车
 ##### 5.使用 cat nohup.out  复制网址手机扫描登录

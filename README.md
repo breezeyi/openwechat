@@ -14,16 +14,16 @@
 
 # 使用步骤：
 # 本地使用
-1.需要自己建立一个数据库 weather\n
-2.将encodes 文件导入新建的数据库中
-3.申请高德和GPT接口的API（免费，配置文档有地址）
-4.选择自己的功能
-5.当前文件下运行 go run .
+# 1.需要自己建立一个数据库 weather
+# 2.将encodes 文件导入新建的数据库中
+# 3.申请高德和GPT接口的API（免费，配置文档有地址）
+# 4.选择自己的功能
+# 5.当前文件下运行 go run .
 
 # 虚拟机或者服务器使用
-1.将openwechat 文件和config 文件夹拷贝在虚拟机或者服务器上
-2.进入config文件夹修改配置文件里面的参数值（步骤根据本地使用基本一样）
-3.配置文件修改后，使用 cd ..  返回上一级目录  然后给openwecaht添加权限 chmod +x openwechat
-4.后台运行文件openwecaht   nohup ./openwecaht & 然后回车
-5.使用 cat nohup.out  复制网址扫描登录
+# 1.将openwechat 文件和config 文件夹拷贝在虚拟机或者服务器上
+# 2.进入config文件夹修改配置文件里面的参数值（步骤根据本地使用基本一样）
+# 3.配置文件修改后，使用 cd ..  返回上一级目录  然后给openwecaht添加权限 chmod +x openwechat
+# 4.后台运行文件openwecaht   nohup ./openwecaht & 然后回车
+# 5.使用 cat nohup.out  复制网址扫描登录
 
